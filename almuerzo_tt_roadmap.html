@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tickets de Almuerzo CATA</title>
+<style>
+    /* Estilos generales del fondo de la pantalla */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; /* Espacio entre tarjetas para recortar */
+        justify-content: center;
+    }
+
+    /* Estilos específicos para cuando se envíe a la impresora */
+    @media print {
+        body {
+            background-color: white;
+            padding: 0;
+        }
+        .no-print {
+            display: none; /* Oculta el botón al imprimir */
+        }
+        .card {
+            box-shadow: none !important; /* Quita la sombra al imprimir para ahorrar tinta */
+            border: 1px dashed #ccc !important; /* Borde punteado para guiar el recorte */
+        }
+    }
+
+    /* Diseño de la tarjeta (Tamaño estándar de tarjeta de crédito) */
+    .card {
+        width: 85.6mm; 
+        height: 53.98mm;
+        background-color: #ffffff;
+        border: 2px solid #002B5B; /* Azul oscuro tipo astrofísica/tecnología */
+        border-radius: 8px; /* Bordes redondeados */
+        box-sizing: border-box;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        page-break-inside: avoid; /* Evita que una tarjeta se corte a la mitad en dos páginas */
+    }
+
+    /* El texto que simula el logo */
+    .logo {
+        font-size: 26px;
+        font-weight: 900;
+        color: #002B5B;
+        letter-spacing: 3px;
+        margin-top: 5px;
+    }
+
+    /* Mensaje central */
+    .message {
+        font-size: 16px;
+        font-weight: bold;
+        color: #333333;
+        margin: 0;
+    }
+
+    /* Texto inferior */
+    .footer {
+        font-size: 11px;
+        font-weight: bold;
+        color: #666666;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    /* Estilo del botón de imprimir */
+    .btn-imprimir {
+        background-color: #002B5B;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .btn-imprimir:hover {
+        background-color: #001a36;
+    }
+</style>
+</head>
+<body>
+
+<div class="no-print" style="width: 100%; text-align: center; margin-bottom: 30px;">
+    <h2>Generador de Tarjetas CATA</h2>
+    <button class="btn-imprimir" onclick="window.print()">🖨️ Imprimir Tarjetas</button>
+    <p style="color: #555;">Se generarán 50 tarjetas listas para recortar.<br>Asegúrate de ajustar los márgenes a "Mínimo" en la vista previa de impresión.</p>
+</div>
+
+<script>
+    const totalPersonas = 50;
+    
+    for (let i = 0; i < totalPersonas; i++) {
+        document.write(`
+            <div class="card">
+                <div class="logo">CATA</div>
+                <div class="message">VÁLIDO POR UN ALMUERZO</div>
+                <div class="footer">Jornada de Ingenieros del CATA 2026</div>
+            </div>
+        `);
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Primer Bloque de Capacitaciones | Fondo CATA I+D ediciones 2025 y 2026</title>
+<style>
+    .session-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+    .session-table th { background: #f8f9fa; text-align: left; padding: 12px; border-bottom: 2px solid #003366; font-size: 14px; }
+    .session-table td { padding: 12px; border-bottom: 1px solid #eee; font-size: 14px; vertical-align: middle; }
+    
+    .zoom-btn { background-color:#003366; color: white; padding: 8px 15px; text-decoration: none; border-radius: 20px; font-size: 12px; display: inline-block; white-space: nowrap; }
+    .zoom-btn:hover { background-color: #003366; }
+    
+    .btn { background: #003366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }
+    
+    /* Nuevo estilo para el botón de expositores */
+    .btn-secondary { background: #003366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }
+    .btn-secondary:hover { background: #003366; }
+
+    .inscription-notice { text-align: center; font-size: 14px; color: #555; margin-top: 35px; margin-bottom: 15px; font-style: italic; }
+</style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f7f9; font-family: 'Segoe UI', Arial, sans-serif;">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#f4f7f9">
+    <tr>
+        <td align="center" style="padding: 40px 0;">
+            <table border="0" cellpadding="0" cellspacing="0" width="700" style="background-color: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 1px solid #e0e0e0;">
+                
+                <tr>
+                    <td align="center" bgcolor="#003366" style="padding: 30px 20px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td align="center" style="padding-bottom: 20px;">
+                                    <h1 style="color: #ffffff; margin: 0; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;"> CATA I+D | CAPACITACIONES 2026 </h1>
+                                    <p style="color: #f4f3f5; margin: 8px 0 0 0; font-size: 14px; font-weight: 300;">Formación abierta para proyectos de I+D</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-top: 10px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="middle" width="100%" style="text-align: center;">
+                                                <div style="display: inline-block; vertical-align: middle;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" style="background-color: transparent; margin: 0 auto;">
+                                                        <tr>
+                                                            <td style="padding: 8px 6px;"><img src="https://OFICINA-TT.github.io/CATA/UChile_Horizontal_Blanco.png" alt="UChile" height="40" style="display:block; border:0; width:auto;"></td>
+                                                            <td style="padding: 8px 10px;"><img src="https://OFICINA-TT.github.io/CATA/UC_Horizontal_Blanco.png" alt="UC" height="40" style="display:block; border:0; width:auto;"></td>
+                                                            <td style="padding: 8px 6px;"><img src="https://OFICINA-TT.github.io/CATA/UdeC_Horizontal_Blanco.png" alt="UdeC" height="32" style="display:block; border:0; width:auto;"></td>
+                                                            <td style="padding: 8px 6px;"><img src="https://OFICINA-TT.github.io/CATA/UDP_Horizontal_Blanco.png" alt="UDP" height="32" style="display:block; border:0; width:auto;"></td>
+                                                            <td style="padding: 8px 6px;"><img src="https://OFICINA-TT.github.io/CATA/UNAB_Horizontal_Blanco.png" alt="UNAB" height="32" style="display:block; border:0; width:auto;"></td>
+                                                            <td width="20">&nbsp;</td>
+                                                            <td style="padding: 8px 6px;"><img src="https://OFICINA-TT.github.io/CATA/Logo_CATA_ANID_BLANCO.png" alt="CATAANID" height="32" style="display:block; border:0; width:auto;"></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 30px; color: #333333;">
+                        <div style="color: #003366; font-size: 22px; font-weight: bold; margin-bottom: 20px;">PRÓXIMAS SESIONES.</div>
+                        <p>Estimados/as,</p>
+                        <p>A continuación, encontrarán el calendario de las capacitaciones del programa CATA I+D 2026, junto a información de los expositores y los correspondientes enlaces de acceso para que puedan planificar su participación.</p>
+                        <table class="session-table">
+                            <tr>
+                                <th>Módulo</th>
+                                <th>Expositor/a</th>
+                                <th>Fecha</th>
+                                <th>Hora (CLT)</th>
+                                <th>Acceso a Zoom</th>
+                            </tr>
+                            <tr>
+                                <td>Patentes y Protección de Innovaciones Científicas.</td>
+                                <td>Santiago Prat</td>
+                                <td>5 de Mayo </td>
+                                <td>17:00 PM</td>
+                                <td><a href="https://us06web.zoom.us/j/84569399910" class="zoom-btn">Unirse a la sesión</a></td>
+                            </tr>
+                            <tr>
+                                <td>Innovación Dual.</td>
+                                <td>Francisco Mackay</td>
+                                <td>Por confirmar </td>
+                                <td>Por confirmar</td>
+                                <td><a href="#" class="zoom-btn">Unirse a la sesión</a></td>
+                            </tr>
+                        </table>
+                        
+                        <p class="inscription-notice">Si desean revisar el material de los talleres o revisar el perfil de los relatores, pueden hacerlo a continuación:</p>
+                        
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td align="center">
+                                    <a href="https://oficina-tt.github.io/CATA/expositores.html" class="btn-secondary">Ver Perfil de Expositores</a>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <a href="https://drive.google.com/drive/folders/1hR7cR8DUpNohuCMd-Tox9jPpHw1wjnKa?usp=sharing" class="btn-secondary">Grabaciones | Sesiones anteriores</a>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center" bgcolor="#f8f9fa" style="padding: 20px; font-size: 12px; color: #666666; border-top: 1px solid #eeeeee;">
+                        Unidad de Transferencia Tecnológica e Innovación | CATA <br>
+                        Santiago, Chile | 2026
+                    </td>
+                </tr>
+
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
